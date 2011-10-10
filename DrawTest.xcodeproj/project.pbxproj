@@ -28,6 +28,7 @@
 		E87D458114427BB000D4F933 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E87D458014427BB000D4F933 /* main.c */; };
 		E87D458314427BB000D4F933 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D458214427BB000D4F933 /* GetMetadataForFile.m */; };
 		E87D458614427BB000D4F933 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D458514427BB000D4F933 /* MySpotlightImporter.m */; };
+		E87D459614427E8600D4F933 /* MyDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D459514427E8600D4F933 /* MyDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,18 +54,18 @@
 		E87D453D14427BAF00D4F933 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E87D453E14427BAF00D4F933 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E87D453F14427BAF00D4F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E87D454214427BAF00D4F933 /* DrawTest-Info.plist */ = {isa = PBXFileReference; path = "DrawTest-Info.plist"; sourceTree = "<group>"; };
+		E87D454214427BAF00D4F933 /* DrawTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawTest-Info.plist"; sourceTree = "<group>"; };
 		E87D454414427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E87D454614427BAF00D4F933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E87D454814427BAF00D4F933 /* DrawTest-Prefix.pch */ = {isa = PBXFileReference; path = "DrawTest-Prefix.pch"; sourceTree = "<group>"; };
+		E87D454814427BAF00D4F933 /* DrawTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawTest-Prefix.pch"; sourceTree = "<group>"; };
 		E87D454A14427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E87D454C14427BAF00D4F933 /* DrawTestAppDelegate.h */ = {isa = PBXFileReference; path = DrawTestAppDelegate.h; sourceTree = "<group>"; };
+		E87D454C14427BAF00D4F933 /* DrawTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawTestAppDelegate.h; sourceTree = "<group>"; };
 		E87D454D14427BAF00D4F933 /* DrawTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTestAppDelegate.m; sourceTree = "<group>"; };
 		E87D455014427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E87D455314427BAF00D4F933 /* DrawTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawTest.xcdatamodel; sourceTree = "<group>"; };
 		E87D455A14427BAF00D4F933 /* DrawTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87D455B14427BAF00D4F933 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E87D456214427BAF00D4F933 /* DrawTestTests-Info.plist */ = {isa = PBXFileReference; path = "DrawTestTests-Info.plist"; sourceTree = "<group>"; };
+		E87D456214427BAF00D4F933 /* DrawTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawTestTests-Info.plist"; sourceTree = "<group>"; };
 		E87D456414427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E87D456614427BAF00D4F933 /* DrawTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawTestTests.h; sourceTree = "<group>"; };
 		E87D456814427BAF00D4F933 /* DrawTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTestTests.m; sourceTree = "<group>"; };
@@ -73,14 +74,16 @@
 		E87D457414427BAF00D4F933 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		E87D457614427BAF00D4F933 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E87D457814427BAF00D4F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E87D457C14427BB000D4F933 /* DrawTestImporter-Info.plist */ = {isa = PBXFileReference; path = "DrawTestImporter-Info.plist"; sourceTree = "<group>"; };
+		E87D457C14427BB000D4F933 /* DrawTestImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawTestImporter-Info.plist"; sourceTree = "<group>"; };
 		E87D457E14427BB000D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E87D458014427BB000D4F933 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E87D458214427BB000D4F933 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		E87D458414427BB000D4F933 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		E87D458414427BB000D4F933 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		E87D458514427BB000D4F933 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		E87D458714427BB000D4F933 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		E87D458814427BB000D4F933 /* DrawTestImporter-Prefix.pch */ = {isa = PBXFileReference; path = "DrawTestImporter-Prefix.pch"; sourceTree = "<group>"; };
+		E87D458714427BB000D4F933 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		E87D458814427BB000D4F933 /* DrawTestImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawTestImporter-Prefix.pch"; sourceTree = "<group>"; };
+		E87D459414427E8600D4F933 /* MyDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDrawView.h; sourceTree = "<group>"; };
+		E87D459514427E8600D4F933 /* MyDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				E87D454D14427BAF00D4F933 /* DrawTestAppDelegate.m */,
 				E87D454F14427BAF00D4F933 /* MainMenu.xib */,
 				E87D455214427BAF00D4F933 /* DrawTest.xcdatamodeld */,
+				E87D459414427E8600D4F933 /* MyDrawView.h */,
+				E87D459514427E8600D4F933 /* MyDrawView.m */,
 				E87D454114427BAF00D4F933 /* Supporting Files */,
 			);
 			path = DrawTest;
@@ -362,6 +367,7 @@
 				E87D454714427BAF00D4F933 /* main.m in Sources */,
 				E87D454E14427BAF00D4F933 /* DrawTestAppDelegate.m in Sources */,
 				E87D455414427BAF00D4F933 /* DrawTest.xcdatamodeld in Sources */,
+				E87D459614427E8600D4F933 /* MyDrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
