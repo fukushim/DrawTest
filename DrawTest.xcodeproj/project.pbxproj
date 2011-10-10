@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87D453B14427BAF00D4F933 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D453A14427BAF00D4F933 /* Cocoa.framework */; };
+		E87D454514427BAF00D4F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87D454314427BAF00D4F933 /* InfoPlist.strings */; };
+		E87D454714427BAF00D4F933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D454614427BAF00D4F933 /* main.m */; };
+		E87D454B14427BAF00D4F933 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E87D454914427BAF00D4F933 /* Credits.rtf */; };
+		E87D454E14427BAF00D4F933 /* DrawTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D454D14427BAF00D4F933 /* DrawTestAppDelegate.m */; };
+		E87D455114427BAF00D4F933 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87D454F14427BAF00D4F933 /* MainMenu.xib */; };
+		E87D455414427BAF00D4F933 /* DrawTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E87D455214427BAF00D4F933 /* DrawTest.xcdatamodeld */; };
+		E87D455C14427BAF00D4F933 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D455B14427BAF00D4F933 /* SenTestingKit.framework */; };
+		E87D455D14427BAF00D4F933 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D453A14427BAF00D4F933 /* Cocoa.framework */; };
+		E87D456514427BAF00D4F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87D456314427BAF00D4F933 /* InfoPlist.strings */; };
+		E87D456714427BAF00D4F933 /* DrawTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E87D456614427BAF00D4F933 /* DrawTestTests.h */; };
+		E87D456914427BAF00D4F933 /* DrawTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D456814427BAF00D4F933 /* DrawTestTests.m */; };
+		E87D457114427BAF00D4F933 /* DrawTestImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = E87D456E14427BAF00D4F933 /* DrawTestImporter.mdimporter */; };
+		E87D457314427BAF00D4F933 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D457214427BAF00D4F933 /* CoreServices.framework */; };
+		E87D457514427BAF00D4F933 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D457414427BAF00D4F933 /* CoreFoundation.framework */; };
+		E87D457714427BAF00D4F933 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D457614427BAF00D4F933 /* CoreData.framework */; };
+		E87D457914427BAF00D4F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87D457814427BAF00D4F933 /* Foundation.framework */; };
+		E87D457F14427BB000D4F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E87D457D14427BB000D4F933 /* InfoPlist.strings */; };
+		E87D458114427BB000D4F933 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E87D458014427BB000D4F933 /* main.c */; };
+		E87D458314427BB000D4F933 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D458214427BB000D4F933 /* GetMetadataForFile.m */; };
+		E87D458614427BB000D4F933 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D458514427BB000D4F933 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87D455E14427BAF00D4F933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87D452D14427BAF00D4F933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87D453514427BAF00D4F933;
+			remoteInfo = DrawTest;
+		};
+		E87D456F14427BAF00D4F933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87D452D14427BAF00D4F933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87D456D14427BAF00D4F933;
+			remoteInfo = DrawTestImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87D453614427BAF00D4F933 /* DrawTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87D453A14427BAF00D4F933 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E87D453D14427BAF00D4F933 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E87D453E14427BAF00D4F933 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E87D453F14427BAF00D4F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E87D454214427BAF00D4F933 /* DrawTest-Info.plist */ = {isa = PBXFileReference; path = "DrawTest-Info.plist"; sourceTree = "<group>"; };
+		E87D454414427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87D454614427BAF00D4F933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E87D454814427BAF00D4F933 /* DrawTest-Prefix.pch */ = {isa = PBXFileReference; path = "DrawTest-Prefix.pch"; sourceTree = "<group>"; };
+		E87D454A14427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E87D454C14427BAF00D4F933 /* DrawTestAppDelegate.h */ = {isa = PBXFileReference; path = DrawTestAppDelegate.h; sourceTree = "<group>"; };
+		E87D454D14427BAF00D4F933 /* DrawTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTestAppDelegate.m; sourceTree = "<group>"; };
+		E87D455014427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E87D455314427BAF00D4F933 /* DrawTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawTest.xcdatamodel; sourceTree = "<group>"; };
+		E87D455A14427BAF00D4F933 /* DrawTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87D455B14427BAF00D4F933 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E87D456214427BAF00D4F933 /* DrawTestTests-Info.plist */ = {isa = PBXFileReference; path = "DrawTestTests-Info.plist"; sourceTree = "<group>"; };
+		E87D456414427BAF00D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87D456614427BAF00D4F933 /* DrawTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawTestTests.h; sourceTree = "<group>"; };
+		E87D456814427BAF00D4F933 /* DrawTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTestTests.m; sourceTree = "<group>"; };
+		E87D456E14427BAF00D4F933 /* DrawTestImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawTestImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87D457214427BAF00D4F933 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		E87D457414427BAF00D4F933 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E87D457614427BAF00D4F933 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E87D457814427BAF00D4F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E87D457C14427BB000D4F933 /* DrawTestImporter-Info.plist */ = {isa = PBXFileReference; path = "DrawTestImporter-Info.plist"; sourceTree = "<group>"; };
+		E87D457E14427BB000D4F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E87D458014427BB000D4F933 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E87D458214427BB000D4F933 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		E87D458414427BB000D4F933 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		E87D458514427BB000D4F933 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		E87D458714427BB000D4F933 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		E87D458814427BB000D4F933 /* DrawTestImporter-Prefix.pch */ = {isa = PBXFileReference; path = "DrawTestImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87D453314427BAF00D4F933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D453B14427BAF00D4F933 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D455614427BAF00D4F933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D455C14427BAF00D4F933 /* SenTestingKit.framework in Frameworks */,
+				E87D455D14427BAF00D4F933 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D456B14427BAF00D4F933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D457314427BAF00D4F933 /* CoreServices.framework in Frameworks */,
+				E87D457514427BAF00D4F933 /* CoreFoundation.framework in Frameworks */,
+				E87D457714427BAF00D4F933 /* CoreData.framework in Frameworks */,
+				E87D457914427BAF00D4F933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87D452B14427BAF00D4F933 = {
+			isa = PBXGroup;
+			children = (
+				E87D454014427BAF00D4F933 /* DrawTest */,
+				E87D456014427BAF00D4F933 /* DrawTestTests */,
+				E87D457A14427BB000D4F933 /* DrawTestImporter */,
+				E87D453914427BAF00D4F933 /* Frameworks */,
+				E87D453714427BAF00D4F933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87D453714427BAF00D4F933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87D453614427BAF00D4F933 /* DrawTest.app */,
+				E87D455A14427BAF00D4F933 /* DrawTestTests.octest */,
+				E87D456E14427BAF00D4F933 /* DrawTestImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87D453914427BAF00D4F933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87D453A14427BAF00D4F933 /* Cocoa.framework */,
+				E87D455B14427BAF00D4F933 /* SenTestingKit.framework */,
+				E87D457214427BAF00D4F933 /* CoreServices.framework */,
+				E87D457414427BAF00D4F933 /* CoreFoundation.framework */,
+				E87D457614427BAF00D4F933 /* CoreData.framework */,
+				E87D457814427BAF00D4F933 /* Foundation.framework */,
+				E87D453C14427BAF00D4F933 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87D453C14427BAF00D4F933 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87D453D14427BAF00D4F933 /* AppKit.framework */,
+				E87D453E14427BAF00D4F933 /* CoreData.framework */,
+				E87D453F14427BAF00D4F933 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E87D454014427BAF00D4F933 /* DrawTest */ = {
+			isa = PBXGroup;
+			children = (
+				E87D454C14427BAF00D4F933 /* DrawTestAppDelegate.h */,
+				E87D454D14427BAF00D4F933 /* DrawTestAppDelegate.m */,
+				E87D454F14427BAF00D4F933 /* MainMenu.xib */,
+				E87D455214427BAF00D4F933 /* DrawTest.xcdatamodeld */,
+				E87D454114427BAF00D4F933 /* Supporting Files */,
+			);
+			path = DrawTest;
+			sourceTree = "<group>";
+		};
+		E87D454114427BAF00D4F933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87D454214427BAF00D4F933 /* DrawTest-Info.plist */,
+				E87D454314427BAF00D4F933 /* InfoPlist.strings */,
+				E87D454614427BAF00D4F933 /* main.m */,
+				E87D454814427BAF00D4F933 /* DrawTest-Prefix.pch */,
+				E87D454914427BAF00D4F933 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E87D456014427BAF00D4F933 /* DrawTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E87D456614427BAF00D4F933 /* DrawTestTests.h */,
+				E87D456814427BAF00D4F933 /* DrawTestTests.m */,
+				E87D456114427BAF00D4F933 /* Supporting Files */,
+			);
+			path = DrawTestTests;
+			sourceTree = "<group>";
+		};
+		E87D456114427BAF00D4F933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87D456214427BAF00D4F933 /* DrawTestTests-Info.plist */,
+				E87D456314427BAF00D4F933 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E87D457A14427BB000D4F933 /* DrawTestImporter */ = {
+			isa = PBXGroup;
+			children = (
+				E87D458214427BB000D4F933 /* GetMetadataForFile.m */,
+				E87D458414427BB000D4F933 /* MySpotlightImporter.h */,
+				E87D458514427BB000D4F933 /* MySpotlightImporter.m */,
+				E87D458714427BB000D4F933 /* Importer Read Me.txt */,
+				E87D457B14427BB000D4F933 /* Supporting Files */,
+			);
+			path = DrawTestImporter;
+			sourceTree = "<group>";
+		};
+		E87D457B14427BB000D4F933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E87D457C14427BB000D4F933 /* DrawTestImporter-Info.plist */,
+				E87D457D14427BB000D4F933 /* InfoPlist.strings */,
+				E87D458014427BB000D4F933 /* main.c */,
+				E87D458814427BB000D4F933 /* DrawTestImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87D453514427BAF00D4F933 /* DrawTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87D458E14427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTest" */;
+			buildPhases = (
+				E87D453214427BAF00D4F933 /* Sources */,
+				E87D453314427BAF00D4F933 /* Frameworks */,
+				E87D453414427BAF00D4F933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87D457014427BAF00D4F933 /* PBXTargetDependency */,
+			);
+			name = DrawTest;
+			productName = DrawTest;
+			productReference = E87D453614427BAF00D4F933 /* DrawTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87D455914427BAF00D4F933 /* DrawTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87D459114427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTestTests" */;
+			buildPhases = (
+				E87D455514427BAF00D4F933 /* Sources */,
+				E87D455614427BAF00D4F933 /* Frameworks */,
+				E87D455714427BAF00D4F933 /* Resources */,
+				E87D455814427BAF00D4F933 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87D455F14427BAF00D4F933 /* PBXTargetDependency */,
+			);
+			name = DrawTestTests;
+			productName = DrawTestTests;
+			productReference = E87D455A14427BAF00D4F933 /* DrawTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E87D456D14427BAF00D4F933 /* DrawTestImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87D458B14427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTestImporter" */;
+			buildPhases = (
+				E87D456A14427BAF00D4F933 /* Sources */,
+				E87D456B14427BAF00D4F933 /* Frameworks */,
+				E87D456C14427BAF00D4F933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawTestImporter;
+			productName = DrawTestImporter;
+			productReference = E87D456E14427BAF00D4F933 /* DrawTestImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87D452D14427BAF00D4F933 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E87D453014427BAF00D4F933 /* Build configuration list for PBXProject "DrawTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E87D452B14427BAF00D4F933;
+			productRefGroup = E87D453714427BAF00D4F933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87D453514427BAF00D4F933 /* DrawTest */,
+				E87D455914427BAF00D4F933 /* DrawTestTests */,
+				E87D456D14427BAF00D4F933 /* DrawTestImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87D453414427BAF00D4F933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D454514427BAF00D4F933 /* InfoPlist.strings in Resources */,
+				E87D454B14427BAF00D4F933 /* Credits.rtf in Resources */,
+				E87D455114427BAF00D4F933 /* MainMenu.xib in Resources */,
+				E87D457114427BAF00D4F933 /* DrawTestImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D455714427BAF00D4F933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D456514427BAF00D4F933 /* InfoPlist.strings in Resources */,
+				E87D456714427BAF00D4F933 /* DrawTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D456C14427BAF00D4F933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D457F14427BB000D4F933 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E87D455814427BAF00D4F933 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87D453214427BAF00D4F933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D454714427BAF00D4F933 /* main.m in Sources */,
+				E87D454E14427BAF00D4F933 /* DrawTestAppDelegate.m in Sources */,
+				E87D455414427BAF00D4F933 /* DrawTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D455514427BAF00D4F933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D456914427BAF00D4F933 /* DrawTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87D456A14427BAF00D4F933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D458114427BB000D4F933 /* main.c in Sources */,
+				E87D458314427BB000D4F933 /* GetMetadataForFile.m in Sources */,
+				E87D458614427BB000D4F933 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87D455F14427BAF00D4F933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87D453514427BAF00D4F933 /* DrawTest */;
+			targetProxy = E87D455E14427BAF00D4F933 /* PBXContainerItemProxy */;
+		};
+		E87D457014427BAF00D4F933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87D456D14427BAF00D4F933 /* DrawTestImporter */;
+			targetProxy = E87D456F14427BAF00D4F933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E87D454314427BAF00D4F933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87D454414427BAF00D4F933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E87D454914427BAF00D4F933 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87D454A14427BAF00D4F933 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E87D454F14427BAF00D4F933 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87D455014427BAF00D4F933 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E87D456314427BAF00D4F933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87D456414427BAF00D4F933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E87D457D14427BB000D4F933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87D457E14427BB000D4F933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E87D458914427BB000D4F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E87D458A14427BB000D4F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E87D458C14427BB000D4F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTestImporter/DrawTestImporter-Prefix.pch";
+				INFOPLIST_FILE = "DrawTestImporter/DrawTestImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		E87D458D14427BB000D4F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTestImporter/DrawTestImporter-Prefix.pch";
+				INFOPLIST_FILE = "DrawTestImporter/DrawTestImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		E87D458F14427BB000D4F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTest/DrawTest-Prefix.pch";
+				INFOPLIST_FILE = "DrawTest/DrawTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E87D459014427BB000D4F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTest/DrawTest-Prefix.pch";
+				INFOPLIST_FILE = "DrawTest/DrawTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E87D459214427BB000D4F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawTest.app/Contents/MacOS/DrawTest";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTest/DrawTest-Prefix.pch";
+				INFOPLIST_FILE = "DrawTestTests/DrawTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E87D459314427BB000D4F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrawTest.app/Contents/MacOS/DrawTest";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawTest/DrawTest-Prefix.pch";
+				INFOPLIST_FILE = "DrawTestTests/DrawTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87D453014427BAF00D4F933 /* Build configuration list for PBXProject "DrawTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87D458914427BB000D4F933 /* Debug */,
+				E87D458A14427BB000D4F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87D458B14427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTestImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87D458C14427BB000D4F933 /* Debug */,
+				E87D458D14427BB000D4F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E87D458E14427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87D458F14427BB000D4F933 /* Debug */,
+				E87D459014427BB000D4F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E87D459114427BB000D4F933 /* Build configuration list for PBXNativeTarget "DrawTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87D459214427BB000D4F933 /* Debug */,
+				E87D459314427BB000D4F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E87D455214427BAF00D4F933 /* DrawTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E87D455314427BAF00D4F933 /* DrawTest.xcdatamodel */,
+			);
+			currentVersion = E87D455314427BAF00D4F933 /* DrawTest.xcdatamodel */;
+			path = DrawTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E87D452D14427BAF00D4F933 /* Project object */;
+}
